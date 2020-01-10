@@ -13,12 +13,13 @@
         <module>password</module>
         <module>password-md5</module>
         <module>password-sha</module>
+        <module>web</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.5.2</junit.version>
-        <spring-version>5.1.9.RELEASE</spring-version>
+        <spring.version>5.1.9.RELEASE</spring.version>
     </properties>
 
     <build>
@@ -43,7 +44,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
-            <version>${spring-version}</version>
+            <version>${spring.version}</version>
         </dependency>
 
         <!--Unit test-->
