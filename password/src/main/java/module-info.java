@@ -1,0 +1,3 @@
+module password {
+    exports services;
+}
