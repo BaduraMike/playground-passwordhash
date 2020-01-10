@@ -12,6 +12,7 @@
     <modules>
         <module>password</module>
         <module>password-md5</module>
+        <module>password-sha</module>
     </modules>
 
     <properties>
