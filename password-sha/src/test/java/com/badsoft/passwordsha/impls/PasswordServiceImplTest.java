@@ -1,10 +1,10 @@
-package impls;
+package com.badsoft.passwordsha.impls;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-import services.PasswordService;
+import com.badsoft.web.services.PasswordService;
 
 import static org.junit.jupiter.api.Assertions.*;
 

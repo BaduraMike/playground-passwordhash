@@ -1,7 +1,7 @@
-package impls;
+package com.badsoft.passwordmd5.impls;
 
 import org.springframework.stereotype.Service;
-import services.PasswordService;
+import com.badsoft.web.services.PasswordService;
 
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -16,7 +16,7 @@ public class PasswordServiceImpl implements PasswordService {
     }
 
     @Override
-    public String alorithm() {
+    public String algorithm() {
         return "md5";
     }
 

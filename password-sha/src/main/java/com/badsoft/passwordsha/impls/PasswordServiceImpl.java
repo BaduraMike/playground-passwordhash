@@ -1,8 +1,8 @@
-package impls;
+package com.badsoft.passwordsha.impls;
 
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.stereotype.Service;
-import services.PasswordService;
+import com.badsoft.web.services.PasswordService;
 
 @Service
 public class PasswordServiceImpl implements PasswordService {
@@ -12,7 +12,7 @@ public class PasswordServiceImpl implements PasswordService {
     }
 
     @Override
-    public String alorithm() {
+    public String algorithm() {
         return "sha256";
     }
 }

@@ -1,4 +1,4 @@
-package configs;
+package com.badsoft.web.configs;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
@@ -14,7 +14,7 @@ import org.thymeleaf.templatemode.TemplateMode;
 
 @EnableWebMvc
 @Configuration
-@ComponentScan("services")
+@ComponentScan("com.badsoft")
 public class SpringConfig implements WebMvcConfigurer {
     private final ApplicationContext applicationContext;
 

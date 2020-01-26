@@ -21,7 +21,7 @@
         <!--md5 hash-->
         <!--        <dependency>-->
         <!--            <groupId>com.badsoft.multimodule</groupId>-->
-        <!--            <artifactId>password-md5</artifactId>-->
+        <!--            <artifactId>web-md5</artifactId>-->
         <!--            <version>1.0</version>-->
         <!--        </dependency>-->
 

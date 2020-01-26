@@ -1,3 +1,3 @@
 module password {
-    exports services;
+    exports com.badsoft.web.services;
 }
